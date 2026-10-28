@@ -1,0 +1,818 @@
+{
+    "SchemaVersion":  1,
+    "Account":  "mPokornyETM",
+    "FetchedAt":  "2026-10-27T22:26:24.3201382Z",
+    "Warnings":  [
+
+                 ],
+    "Plugins":  [
+                    {
+                        "Key":  "jenkinsci/android-emulator-plugin",
+                        "Directory":  "android-emulator-plugin",
+                        "Repository":  "jenkinsci/android-emulator-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/android-emulator-plugin",
+                        "Title":  "Android Emulator",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "android-emulator"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/android-emulator-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/android-emulator-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/anything-goes-formatter-plugin",
+                        "Directory":  "anything-goes-formatter-plugin",
+                        "Repository":  "jenkinsci/anything-goes-formatter-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/anything-goes-formatter-plugin",
+                        "Title":  "anything-goes-formatter",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "anything-goes-formatter"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/anything-goes-formatter-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/anything-goes-formatter-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/artifactdeployer-plugin",
+                        "Directory":  "artifactdeployer-plugin",
+                        "Repository":  "jenkinsci/artifactdeployer-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/artifactdeployer-plugin",
+                        "Title":  "Artifact Deployer",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "artifactdeployer"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/artifactdeployer-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/artifactdeployer-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/badge-plugin",
+                        "Directory":  "badge-plugin",
+                        "Repository":  "jenkinsci/badge-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/badge-plugin",
+                        "Title":  "Badge",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "badge"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/badge-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/badge-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/blueocean-plugin",
+                        "Directory":  "blueocean-plugin",
+                        "Repository":  "jenkinsci/blueocean-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/blueocean-plugin",
+                        "Title":  "blueocean-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "blueocean",
+                                          "blueocean-bitbucket-pipeline",
+                                          "blueocean-commons",
+                                          "blueocean-config",
+                                          "blueocean-core-js",
+                                          "blueocean-dashboard",
+                                          "blueocean-events",
+                                          "blueocean-executor-info",
+                                          "blueocean-git-pipeline",
+                                          "blueocean-github-pipeline",
+                                          "blueocean-i18n",
+                                          "blueocean-jira",
+                                          "blueocean-jwt",
+                                          "blueocean-personalization",
+                                          "blueocean-pipeline-api-impl",
+                                          "blueocean-pipeline-editor",
+                                          "blueocean-pipeline-scm-api",
+                                          "blueocean-rest",
+                                          "blueocean-rest-impl",
+                                          "blueocean-web",
+                                          "jenkins-design-language"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/blueocean-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/categorized-view-plugin",
+                        "Directory":  "categorized-view-plugin",
+                        "Repository":  "jenkinsci/categorized-view-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/categorized-view-plugin",
+                        "Title":  "categorized-view",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "categorized-view"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/categorized-view-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/categorized-view-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/chucknorris-plugin",
+                        "Directory":  "chucknorris-plugin",
+                        "Repository":  "jenkinsci/chucknorris-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/chucknorris-plugin",
+                        "Title":  "ChuckNorris",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "chucknorris"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/chucknorris-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/chucknorris-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/collapsing-console-sections-plugin",
+                        "Directory":  "collapsing-console-sections-plugin",
+                        "Repository":  "jenkinsci/collapsing-console-sections-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/collapsing-console-sections-plugin",
+                        "Title":  "Collapsing Console Sections",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "collapsing-console-sections"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/collapsing-console-sections-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/collapsing-console-sections-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/console-badge-plugin",
+                        "Directory":  "console-badge-plugin",
+                        "Repository":  "jenkinsci/console-badge-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/console-badge-plugin",
+                        "Title":  "Console Badge",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "console-badge"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/console-badge-plugin-developers"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/copyartifact-plugin",
+                        "Directory":  "copyartifact-plugin",
+                        "Repository":  "jenkinsci/copyartifact-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/copyartifact-plugin",
+                        "Title":  "Copy Artifact",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "copyartifact"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/copyartifact-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/copyartifact-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/copy-project-link-plugin",
+                        "Directory":  "copy-project-link-plugin",
+                        "Repository":  "jenkinsci/copy-project-link-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/copy-project-link-plugin",
+                        "Title":  "copy-project-link-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "copy-project-link"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/copy-project-link-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/custom-tools-plugin",
+                        "Directory":  "custom-tools-plugin",
+                        "Repository":  "jenkinsci/custom-tools-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/custom-tools-plugin",
+                        "Title":  "Custom Tools",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "custom-tools-plugin"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/customtools-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/custom-tools-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/data-tables-api-plugin",
+                        "Directory":  "data-tables-api-plugin",
+                        "Repository":  "jenkinsci/data-tables-api-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/data-tables-api-plugin",
+                        "Title":  "data-tables-api-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "data-tables-api"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/data-tables-api-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/docker-workflow-plugin",
+                        "Directory":  "docker-workflow-plugin",
+                        "Repository":  "jenkinsci/docker-workflow-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/docker-workflow-plugin",
+                        "Title":  "docker-workflow-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "docker-workflow"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/docker-workflow-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/extra-columns-plugin",
+                        "Directory":  "extra-columns-plugin",
+                        "Repository":  "jenkinsci/extra-columns-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/extra-columns-plugin",
+                        "Title":  "extra-columns-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "extra-columns"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/extra-columns-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/favorite-view-plugin",
+                        "Directory":  "favorite-view-plugin",
+                        "Repository":  "jenkinsci/favorite-view-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/favorite-view-plugin",
+                        "Title":  "Favorite View",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "favorite-view"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/favorite-view-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/favorite-view-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/job-restrictions-plugin",
+                        "Directory":  "job-restrictions-plugin",
+                        "Repository":  "jenkinsci/job-restrictions-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/job-restrictions-plugin",
+                        "Title":  "Job Restrictions",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "job-restrictions"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/job-restrictions-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/job-restrictions-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/jqs-monitoring-plugin",
+                        "Directory":  "jqs-monitoring-plugin",
+                        "Repository":  "jenkinsci/jqs-monitoring-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/jqs-monitoring-plugin",
+                        "Title":  "Job/Queue/Agents Monitoring",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "jqs-monitoring"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/jqs-monitoring-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/jqs-monitoring-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/label-linked-jobs-plugin",
+                        "Directory":  "label-linked-jobs-plugin",
+                        "Repository":  "jenkinsci/label-linked-jobs-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/label-linked-jobs-plugin",
+                        "Title":  "label-linked-jobs-plugin",
+                        "Classification":  "pending-permissions",
+                        "PluginIds":  [
+                                          "label-linked-jobs"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "pending-permissions",
+                                             "Source":  "https://github.com/jenkins-infra/repository-permissions-updater/pull/5034"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/label-linked-jobs-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/lockable-resources-plugin",
+                        "Directory":  "lockable-resources-plugin",
+                        "Repository":  "jenkinsci/lockable-resources-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/lockable-resources-plugin",
+                        "Title":  "Lockable Resources",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "lockable-resources"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/lockable-resources-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/lockable-resources-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/ownership-plugin",
+                        "Directory":  "ownership-plugin",
+                        "Repository":  "jenkinsci/ownership-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/ownership-plugin",
+                        "Title":  "Job and Node ownership",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "ownership"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/ownership-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/ownership-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/perfpublisher-plugin",
+                        "Directory":  "perfpublisher-plugin",
+                        "Repository":  "jenkinsci/perfpublisher-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/perfpublisher-plugin",
+                        "Title":  "Performance Publisher",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "perfpublisher"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/perfpublisher-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/perfpublisher-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/pipeline-stage-step-plugin",
+                        "Directory":  "pipeline-stage-step-plugin",
+                        "Repository":  "jenkinsci/pipeline-stage-step-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/pipeline-stage-step-plugin",
+                        "Title":  "pipeline-stage-step-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "pipeline-stage-step"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/pipeline-stage-step-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/port-allocator-plugin",
+                        "Directory":  "port-allocator-plugin",
+                        "Repository":  "jenkinsci/port-allocator-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/port-allocator-plugin",
+                        "Title":  "Port Allocator",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "port-allocator"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/port-allocator-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/port-allocator-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/publish-over-cifs-plugin",
+                        "Directory":  "publish-over-cifs-plugin",
+                        "Repository":  "jenkinsci/publish-over-cifs-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/publish-over-cifs-plugin",
+                        "Title":  "publish-over-cifs-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "publish-over-cifs"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/publish-over-cifs-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/pull-request-monitoring-plugin",
+                        "Directory":  "pull-request-monitoring-plugin",
+                        "Repository":  "jenkinsci/pull-request-monitoring-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/pull-request-monitoring-plugin",
+                        "Title":  "Pull Request Monitoring",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "pull-request-monitoring"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/pull-request-monitoring-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/pull-request-monitoring-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/security-inspector-plugin",
+                        "Directory":  "security-inspector-plugin",
+                        "Repository":  "jenkinsci/security-inspector-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/security-inspector-plugin",
+                        "Title":  "security-inspector-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "security-inspector"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/security-inspector-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/summary_report-plugin",
+                        "Directory":  "summary_report-plugin",
+                        "Repository":  "jenkinsci/summary_report-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/summary_report-plugin",
+                        "Title":  "Summary Display",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "summary_report"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/summary_report-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/summary_report-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/syslog-logger-plugin",
+                        "Directory":  "syslog-logger-plugin",
+                        "Repository":  "jenkinsci/syslog-logger-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/syslog-logger-plugin",
+                        "Title":  "Syslog logger",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "syslog-logger"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/syslog-logger-plugin-developers"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/test-results-analyzer-plugin",
+                        "Directory":  "test-results-analyzer-plugin",
+                        "Repository":  "jenkinsci/test-results-analyzer-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/test-results-analyzer-plugin",
+                        "Title":  "Test Results Analyzer",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "test-results-analyzer"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/test-results-analyzer-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/test-results-analyzer-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "catalog:tool-labels-plugin",
+                        "Directory":  "tool-labels-plugin",
+                        "Repository":  "",
+                        "RepositoryUrl":  null,
+                        "Title":  "Tool Labels",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "tool-labels-plugin"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/updatejob-plugin",
+                        "Directory":  "updatejob-plugin",
+                        "Repository":  "jenkinsci/updatejob-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/updatejob-plugin",
+                        "Title":  "updatejob-plugin",
+                        "Classification":  "developer-team",
+                        "PluginIds":  [
+
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/updatejob-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/updatejob-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/vrealize-automation-8-plugin",
+                        "Directory":  "vrealize-automation-8-plugin",
+                        "Repository":  "jenkinsci/vrealize-automation-8-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/vrealize-automation-8-plugin",
+                        "Title":  "vrealize-automation-8-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "vrealize-automation-8"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/vrealize-automation-8-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/workflow-basic-steps-plugin",
+                        "Directory":  "workflow-basic-steps-plugin",
+                        "Repository":  "jenkinsci/workflow-basic-steps-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/workflow-basic-steps-plugin",
+                        "Title":  "workflow-basic-steps-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "workflow-basic-steps"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/workflow-basic-steps-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/workflow-cps-plugin",
+                        "Directory":  "workflow-cps-plugin",
+                        "Repository":  "jenkinsci/workflow-cps-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/workflow-cps-plugin",
+                        "Title":  "workflow-cps-plugin",
+                        "Classification":  "fork-only",
+                        "PluginIds":  [
+                                          "workflow-cps"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/workflow-cps-plugin"
+                                         }
+                                     ]
+                    },
+                    {
+                        "Key":  "jenkinsci/wsclean-plugin",
+                        "Directory":  "wsclean-plugin",
+                        "Repository":  "jenkinsci/wsclean-plugin",
+                        "RepositoryUrl":  "https://github.com/jenkinsci/wsclean-plugin",
+                        "Title":  "Distributed Workspace Clean",
+                        "Classification":  "catalog-developer",
+                        "PluginIds":  [
+                                          "hudson-wsclean-plugin"
+                                      ],
+                        "Evidence":  [
+                                         {
+                                             "Kind":  "catalog-developer",
+                                             "Source":  "https://updates.jenkins.io/current/update-center.actual.json"
+                                         },
+                                         {
+                                             "Kind":  "developer-team",
+                                             "Source":  "https://github.com/orgs/jenkinsci/teams/wsclean-plugin-developers"
+                                         },
+                                         {
+                                             "Kind":  "fork-only",
+                                             "Source":  "https://github.com/mPokornyETM/wsclean-plugin"
+                                         }
+                                     ]
+                    }
+                ]
+}

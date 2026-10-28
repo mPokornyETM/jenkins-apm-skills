@@ -1,0 +1,7 @@
+/apm_modules/
+/.agents/
+/.apm-cache/
+/data/.cache/
+/data/catalog.json
+/data/github-discovery.json
+*.zip

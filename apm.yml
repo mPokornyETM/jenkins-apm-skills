@@ -1,0 +1,16 @@
+name: jenkins-apm-skills
+version: 0.1.0
+description: Reviewed maintenance skills and reproducible helpers for Jenkins plugins.
+author: mPokornyETM
+license: MIT
+includes:
+  - .apm/skills/common/sync-fork-master/
+  - .apm/skills/common/jenkins-plugin-inventory/
+  - .apm/instructions/jenkins-plugin-development.instructions.md
+  - .apm/instructions/jenkins-plugin-pr-review.instructions.md
+targets:
+  - copilot
+dependencies:
+  apm:
+    - ./.apm/skills/common/sync-fork-master
+    - ./.apm/skills/common/jenkins-plugin-inventory
