@@ -107,43 +107,6 @@
                                      ]
                     },
                     {
-                        "Key":  "jenkinsci/blueocean-plugin",
-                        "Directory":  "blueocean-plugin",
-                        "Repository":  "jenkinsci/blueocean-plugin",
-                        "RepositoryUrl":  "https://github.com/jenkinsci/blueocean-plugin",
-                        "Title":  "blueocean-plugin",
-                        "Classification":  "fork-only",
-                        "PluginIds":  [
-                                          "blueocean",
-                                          "blueocean-bitbucket-pipeline",
-                                          "blueocean-commons",
-                                          "blueocean-config",
-                                          "blueocean-core-js",
-                                          "blueocean-dashboard",
-                                          "blueocean-events",
-                                          "blueocean-executor-info",
-                                          "blueocean-git-pipeline",
-                                          "blueocean-github-pipeline",
-                                          "blueocean-i18n",
-                                          "blueocean-jira",
-                                          "blueocean-jwt",
-                                          "blueocean-personalization",
-                                          "blueocean-pipeline-api-impl",
-                                          "blueocean-pipeline-editor",
-                                          "blueocean-pipeline-scm-api",
-                                          "blueocean-rest",
-                                          "blueocean-rest-impl",
-                                          "blueocean-web",
-                                          "jenkins-design-language"
-                                      ],
-                        "Evidence":  [
-                                         {
-                                             "Kind":  "fork-only",
-                                             "Source":  "https://github.com/mPokornyETM/blueocean-plugin"
-                                         }
-                                     ]
-                    },
-                    {
                         "Key":  "jenkinsci/categorized-view-plugin",
                         "Directory":  "categorized-view-plugin",
                         "Repository":  "jenkinsci/categorized-view-plugin",
